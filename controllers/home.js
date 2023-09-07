@@ -4,7 +4,7 @@ exports.list = (req,res)=>{
 
       return res.response(data).type('application/json').header('content-type', 'application/json').code(200);
 }
-
+ 
 exports.checkParam = (req,res)=>{
     console.log(req.payload);
     const {token, orgId} = req.payload ??{};
