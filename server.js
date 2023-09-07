@@ -19,7 +19,7 @@ server.route({
     }
 });
 
-server.route({
+server.route({ 
     method: 'GET',
     path:'/list',
     handler: controller.list
